@@ -10,7 +10,7 @@ The Jupyter Notebook details the process of model training, evaluation, and infe
 
 ## Results
 
-- [x] Classification task
+- [x] Classification task - `weed_classification.ipynb` (BEST RESULT: resnet50 - weighted CE)
 - [ ] Semantic segmentation task 
 - [ ] Synthetic dataset creation
 
