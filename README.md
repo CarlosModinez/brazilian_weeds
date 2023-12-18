@@ -1,6 +1,6 @@
 # Brazilian weeds
 
-Welcome to the repository dedicated to studies on the classification and semantic segmentation of the 8 most common weed families in Brazil. This project aims to develop and share machine learning models for accurate identification and segmentation of these weeds, contributing to the advancement of sustainable agriculture.
+Welcome to the repository dedicated to studies on classification and semantic segmentation of the 8 families and 14 most common weed species in Brazil. This project aims to develop and share machine learning models for accurate identification and segmentation of these weeds, contributing to the advancement of sustainable agriculture.
 
 ## Notebooks
 
@@ -10,8 +10,10 @@ The Jupyter Notebook details the process of model training, evaluation, and infe
 
 ## Results
 
-- [x] Classification task - `weed_classification.ipynb` (BEST RESULT: resnet50 - weighted CE)
-- [ ] Semantic segmentation task 
+- [x] Classification by families task - `weed_classification.ipynb` (BEST RESULT: resnet50 - weighted CE)
+- [x] Classification by species task - `weed_species_classification.ipynb` (BEST RESULT: resnet101 - weighted CE and resnet152 - weighted CE)
+- [x] Binary segmentation task (weed x background) - `weed_segmentation.ipynb` (BEST RESULT: UNET++) 
+- [ ] Semantic segmentation task
 - [ ] Synthetic dataset creation
 
 
